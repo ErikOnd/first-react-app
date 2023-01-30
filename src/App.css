@@ -38,11 +38,41 @@
   }
 }
 
-
-.btn-style {
-  background-color: #61dafb;
+.bg-green {
+  background-color: green;
 }
 
-.img-style {
+.bg-red {
+  background-color: red;
+
+}
+
+.bg-black {
+  background-color: black;
+  color: white;
+
+}
+
+.bg-yellow {
+  background-color: yellow;
+}
+
+button {
+  margin: 10px;
+}
+
+img {
   width: 400px;
+  display: inline;
+}
+
+.imgWithBadge {
+  display: inline-block;
+  position: relative;
+}
+
+.bade-style {
+  position: absolute;
+  z-index: 2;
+  left: 0px;
 }
