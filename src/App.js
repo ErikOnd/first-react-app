@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import ButtonComponent from './components/ButtonComponent';
 import ImageComponent from './components/ImageComponent';
+import FormComponent from './components/FormComponent';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <ButtonComponent btnInput="This is a red button" bgColor="bg-red" btnVariant="warning" />
         <ButtonComponent btnInput="This is a yellow button" bgColor="bg-yellow" btnVariant="info" />
         <ButtonComponent btnInput="This is a black button" bgColor="bg-black" btnVariant="danger" />
+        <FormComponent></FormComponent>
       </header>
     </div>
   );
