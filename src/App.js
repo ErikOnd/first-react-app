@@ -10,10 +10,10 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <div className="img-div">
-          <ImageComponent imgSrc="https://www.pngplay.com/wp-content/uploads/9/Mario-PNG-HD-Quality.png" imgAlt="Mario" bgColor="bg-green" />
-          <ImageComponent imgSrc="https://www.pngplay.com/wp-content/uploads/9/Mario-PNG-HD-Quality.png" imgAlt="Mario" bgColor="bg-red" />
-          <ImageComponent imgSrc="https://www.pngplay.com/wp-content/uploads/9/Mario-PNG-HD-Quality.png" imgAlt="Mario" bgColor="bg-yellow" />
-          <ImageComponent imgSrc="https://www.pngplay.com/wp-content/uploads/9/Mario-PNG-HD-Quality.png" imgAlt="Mario" bgColor="bg-black" />
+          <ImageComponent imgSrc="https://www.pngplay.com/wp-content/uploads/9/Mario-PNG-HD-Quality.png" imgAlt="Mario" bgColor="bg-green" imgStyle="img-style" />
+          <ImageComponent imgSrc="https://www.pngplay.com/wp-content/uploads/9/Mario-PNG-HD-Quality.png" imgAlt="Mario" bgColor="bg-red" imgStyle="img-style" />
+          <ImageComponent imgSrc="https://www.pngplay.com/wp-content/uploads/9/Mario-PNG-HD-Quality.png" imgAlt="Mario" bgColor="bg-yellow" imgStyle="img-style" />
+          <ImageComponent imgSrc="https://www.pngplay.com/wp-content/uploads/9/Mario-PNG-HD-Quality.png" imgAlt="Mario" bgColor="bg-black" imgStyle="img-style" />
         </div>
         <ButtonComponent btnInput="This is a green button" bgColor="bg-green" btnVariant="success" />
         <ButtonComponent btnInput="This is a red button" bgColor="bg-red" btnVariant="warning" />
